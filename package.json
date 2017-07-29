@@ -1,6 +1,6 @@
 {
   "name": "xkcd-helper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A promise-based API for https://www.xkcd.com/",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/renellc/xkcd-node"
+    "url": "https://github.com/renellc/xkcd-helper"
   },
   "keywords": [
     "xkcd",
