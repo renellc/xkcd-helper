@@ -85,3 +85,7 @@ let getRandom = function () {
         .catch(err => reject(err));
     });
 };
+
+exports.getComic = getComic;
+exports.getLatest = getLatest;
+exports.getRandom = getRandom;
