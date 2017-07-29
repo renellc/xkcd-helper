@@ -30,3 +30,14 @@ let getLatest = function () {
         .catch(err => reject(err));
     });
 };
+
+let getRandom = function () {
+    return new Promise((resolve, reject) => {
+        getData().then(latestComic => {
+            let randComicNum = Math.floor(Math.random() * latestComic.num);
+            getData(randComicNum).then(randComicData => resolve(randComicData))
+            .catch(err => reject(err));
+        })
+        .catch(err => reject(err));
+    });
+};
