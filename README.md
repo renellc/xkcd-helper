@@ -1,11 +1,11 @@
 # xkcd-node
-A helper library for https://www.xkcd.com/
+A promise-based helper library for https://www.xkcd.com/
 
 ## Prerequisites 
 - **node.js - 0.12.0+** (Due to the use of native promises)
 
 ## Installation
-`npm install xkcd-node`
+`npm install xkcd-helper`
 
 ## Usage
 Everything in this package is promise-based so using this package is very easy.
@@ -13,7 +13,7 @@ Everything in this package is promise-based so using this package is very easy.
 
 **Example:**
 ```
-const xkcd = require("xkcd-node");
+const xkcd = require("xkcd-helper");
 
 xkcd.getLatest().then((comicData) => console.log(data))
 .catch((err) => console.log(err));
