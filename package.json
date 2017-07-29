@@ -1,0 +1,15 @@
+{
+  "name": "xkcd-node",
+  "version": "1.0.0",
+  "description": "A xkcd helper library for https://www.xkcd.com/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "xkcd",
+    "helper"
+  ],
+  "author": "Renell Castro",
+  "license": "MIT"
+}
