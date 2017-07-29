@@ -6,10 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/renellc/xkcd-node"
+  },
   "keywords": [
     "xkcd",
     "helper"
   ],
-  "author": "Renell Castro",
+  "author": "renellc/renel_c (Renell Castro)",
   "license": "MIT"
 }
