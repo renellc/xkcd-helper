@@ -1,4 +1,4 @@
-# xkcd-node
+# xkcd-helper
 A promise-based helper library for https://www.xkcd.com/
 
 ## Prerequisites 
