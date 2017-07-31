@@ -27,7 +27,10 @@ let getData = function (comicNum = null) {
                     reject(err);
                 }
             });
-        }).on("error", err => reject(err));
+        }).on("error", err => {
+            let errMsg = "Was not able to make request to servers.";
+            reject(new Error(err, "\n" + errMsg));
+        });
     });
 };
 
