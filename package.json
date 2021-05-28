@@ -1,6 +1,6 @@
 {
   "name": "xkcd-helper",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A promise-based API for https://www.xkcd.com/",
   "main": "index.js",
   "scripts": {
