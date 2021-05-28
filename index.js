@@ -1,6 +1,6 @@
 /* jshint esversion: 6 */
 const https = require("https");
-const hostUrl = "https://www.xkcd.com/";
+const hostUrl = "https://xkcd.com/";
 const comicPath = "info.0.json";
 
 
